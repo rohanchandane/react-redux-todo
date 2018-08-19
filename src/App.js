@@ -18,7 +18,6 @@ class App extends Component {
   }
 
   handleClick(){
-    console.log(this.state.item);
     this.props.dispatch ({
       type : ADD_ITEM,
       payload: this.state.item
